@@ -1,12 +1,12 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 6 oct. 2016, 16:52:21
-    Author     : chaillma
-*/
+.centrer {
+text-align: center;
+}
+
+.italic-small{
+font-style: italic;
+font-size: 10px;
+
+}
 
 nav ul{
     //background-color: blue;
@@ -38,7 +38,10 @@ nav li a{
     text-decoration: none;
 }
 
-
+nav h1{
+text-align: center;
+color: blue;
+}
 /* Change the link color on hover */
 li a:hover {
     //background-color: #6699ff;
@@ -46,50 +49,40 @@ li a:hover {
     color: white;
 }
 
-#diplome{
-border-style: solid;
-background-color: grey;
-//float: right;
-height: 500px;
+
+fieldset{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 100px;
+
+}
+
+#test{
+margin:auto;
+display:block;
+}
+
+#diplome img {
+height: 50px;
+display: block;
+margin: auto;
 }
 
 #civil img{
 float: left;
-margin: 40px;
+margin: 10px;
 }
 
-#arbre span{
-width: 2%;
-//padding-left: 10px;
-//padding-right: 10px;
-padding-top: 35px;
-padding-bottom: 35px;
-//height: 140px;
-border-style: solid;
-margin:0px;
-display:inline-block;
+#comp_it img {
+height: 50px;
 }
 
-#arbre {
-width: 100%;
-position: fixed;
-bottom:0px;
-height: 150px;
-}
+.souligne{
+text-decoration : underline;}
 
-#arbre img{
-width: 100%;
-height: 150px;
-margin:0px;
-//float: left; 
+.indent{
+text-indent: 30px;
 }
-
-#arbre div{
-position: relative;
-bottom: 125px;
-left:10px;
-}
-
 .fond_scolarite{
 background-color: red;
 }
@@ -101,6 +94,137 @@ background-color: red;
     margin: 0px;
     
 }
-.periode_embl{
-    background-color: green;
+.job 
+
+.embl{
+    background-color: #0099e6;
+}
+
+.etude{
+/* text-align : right; */
+padding: 2px 2px; /*center vertically*/
+
+}
+.etude img{
+width: 20px;
+height: 20px;
+/* margin: 2px 0; */
+float:right;
+}
+
+.lycee{
+    background-color: #ccffcc;
+}
+
+.univ{
+    background-color: #66ff66;
+}
+
+.esbs{
+    background-color: #00cc00;
+}
+
+#menu{
+border-style: solid;
+width:70px;
+height: 490px;
+position: fixed;
+right: 17px;
+top: 100px;
+
+}
+
+#menu img {
+width : 60px;
+height: 60px;
+display: block;
+padding: 5px 5px;
+
+}
+
+#exp ul{
+margin-left: 30px;}
+
+
+legend{
+font-size: 20px;
+font-weight: bold;
+color: blue;}
+
+#exp img {
+float: right;
+height: 100px;
+}
+
+
+
+.barre_gauche{
+border-left-style: solid;
+border-left-color:  #cc6600;
+border-left-width: 3px;
+padding-left : 20px;
+margin-left: 40px;
+}
+
+.jobname{
+color: #cc6600;
+font-weight: bold;
+}
+
+.labtopic{
+font-style : italic;
+background-color:  #ffffcc;
+}
+
+.temps{
+
+float: left;
+height: 20px;
+padding-left: 5px;
+padding-top: 2px;
+padding-bottom:2px;
+
+/*padding-right: 50px; */
+transform: rotate(-90deg);
+transform-origin: left top 0;
+background-color: #cc6600;
+color: white;
+}
+
+.pembl{
+width: 350px;
+}
+
+.pcnrs{
+width: 200px;
+}
+
+.pnovartis{
+width: 135px;
+}
+
+.pesbs{
+width: 120px;
+}
+
+
+#publi span{
+font-weight: bold;
+}
+
+#publi ul{
+margin-left: 10px;}
+
+
+#publi li{
+padding-top: 5px;
+padding-bottom:5px;}
+
+#relation img{
+height: 15px;}
+
+.largeur_langue{
+padding-left: 20px;
+padding-right: 50px;
+
 }

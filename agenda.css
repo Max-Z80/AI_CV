@@ -1,0 +1,46 @@
+
+th {
+color: white;
+background-color: blue;
+}
+
+table{
+margin: 30px;
+}
+
+td{
+background-color: cyan;
+padding: 30px;
+text-align: center;
+vertical-align: middle;
+}
+
+.prog{
+background-color: green;
+}
+
+.anglais{
+background-color: pink;
+}
+
+.bd{
+background-color: red;}
+
+.algo{
+background-color: brown;}
+
+.reseau{
+background-color: #ffff66;}
+
+
+.gl{
+background-color: violet;}
+
+.system{
+background-color: #b366ff;}
+
+.sport{
+background-color: #ff471a;}
+
+.musique{
+background-color: #ff99ff;}
